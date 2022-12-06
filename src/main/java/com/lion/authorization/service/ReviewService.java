@@ -22,8 +22,7 @@ import java.util.stream.Collectors;
 @Transactional
 public class ReviewService {
 
-    private final ReviewRepository reviewRepository;
-    private final HospitalRepository hospitalRepository;
-
-    
+    public String write( String userName) {
+        return userName + "님의 리뷰가 등록되었습니다.";
+    }
 }
