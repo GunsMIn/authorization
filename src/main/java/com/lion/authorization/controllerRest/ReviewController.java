@@ -12,5 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class ReviewController {
 
 
+    @PostMapping
+    public String write(@RequestBody ReviewCreateRequest dto, Authentication authentication) {
+        log.info("Controller user:{}", authentication.getName());
+        return "리뷰 등록에 성공 했습니다.";
 
+    }
 }
