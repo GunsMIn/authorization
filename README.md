@@ -13,7 +13,7 @@ JWT TOKEN
    "userName":String,
    "password":String}
 # Spring Security + JWT Token
-### [Spring Security 프로젝트 적용 (Velog 정리본)](https://velog.io/@guns95/Spring-Security%EC%99%80-JWT-%ED%86%A0%ED%81%B0%EC%9D%98-%EC%9D%B8%EC%A6%9D%EC%9D%B8%EA%B0%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8)
+### [Spring Security 병원리뷰 프로젝트 적용 (Velog 정리본)](https://velog.io/@guns95/Spring-Security%EC%99%80-JWT-%ED%86%A0%ED%81%B0%EC%9D%98-%EC%9D%B8%EC%A6%9D%EC%9D%B8%EA%B0%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8)
 ### @PostMapping("/api/v1/reviews") : 인증된 User만이 리뷰 쓸 수 있는 API
 > request :{
    "hospitalId":Integer,
