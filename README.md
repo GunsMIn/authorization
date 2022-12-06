@@ -2,10 +2,24 @@
 JWT TOKEN
 
 ### @PostMapping("/api/v1/users/join") : 회원가입 비밀번호 BCryptPasswordEncoder 암호화
+> request :{
+   "userName":String,
+   "password":String,
+   "emailAddress":String}
+
+
 ### @PostMapping("/api/v1/users/login") : JWT 토큰 발행 
+> request :{
+   "userName":String,
+   "password":String}
 # Spring Security + JWT Token
 ### [Spring Security 프로젝트 적용 (Velog 정리본)](https://velog.io/@guns95/Spring-Security%EC%99%80-JWT-%ED%86%A0%ED%81%B0%EC%9D%98-%EC%9D%B8%EC%A6%9D%EC%9D%B8%EA%B0%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8)
 ### @PostMapping("/api/v1/reviews") : 인증된 User만이 리뷰 쓸 수 있는 API
+> request :{
+   "hospitalId":Integer,
+   "title":String,
+   "content":String,
+   "userName":String}
 
 </BR></BR></BR>
 
